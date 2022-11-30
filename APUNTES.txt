@@ -15,3 +15,14 @@ git config --global alias.lg "log --oneline --decorate --all --graph"
 git reset --hard <<id del commit>>  /// vuelve a dejar todo como estaba en ese commit.
 
 git reflog  // es igual al LOG pero muestra todos los cambios de todo tipo en la historia local.
+
+
+// crear repò en github
+git remote add <<nombreremoto: origin>> <<ruta>>
+git push -u origin master (o main)
+
+
+/// ACTUALIZAR CODIGO
+git add .
+git commit -m "mensaje"
+git push
