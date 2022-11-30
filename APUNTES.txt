@@ -1,0 +1,17 @@
+git init   // inicializa el repositorio en la carpeta actual.
+
+git add <<nombrearchivo>>   // sube el archivo al stage
+
+git add .  // sube todos los archivos o modificaciones pendientes al stage
+
+git status
+
+git commit -m "agregar comentario"  // saca una foto del stage y deja versionado los archivos.
+
+// opcional
+git config --global alias.s "status -s -b"
+git config --global alias.lg "log --oneline --decorate --all --graph"
+
+git reset --hard <<id del commit>>  /// vuelve a dejar todo como estaba en ese commit.
+
+git reflog  // es igual al LOG pero muestra todos los cambios de todo tipo en la historia local.
